@@ -1,0 +1,117 @@
+.container-fluid {
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.container-md {
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.row {
+  height: 100vh;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.section {
+  padding-top: 270px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.column1 .text {
+  white-space: pre-line;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.captionSection {
+  margin-top: 190px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.imageSection1 {
+  margin-top: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.imageSection2 {
+  margin-top: 190px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.imageSection3 {
+  margin-top: 90px;
+  padding-bottom: 160px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-y: hidden;
+}
+
+.img1 {
+  height: auto;
+  width: 590px;
+  margin-left: -55px;
+}
+
+.img2 {
+  height: auto;
+  width: 370px;
+  margin-left: -10px;
+}
+
+.img3 {
+  height: auto;
+  width: 390px;
+  margin-left: -19px;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-y: hidden;
+}
+
+/* @media screen and (min-width: 576px) {
+  .captionSection {
+    margin-top: 0px;
+  }
+} */
+
+/* // Small devices (landscape phones, 576px and up)
+@media screen and (min-width: 576px) {
+  .img-fluid {
+    height: auto;
+    width: auto;
+  }
+  .text {
+    font-size: 30px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media screen and (min-width: 768px) {
+  .img-fluid {
+    height: auto;
+    width: auto;
+  }
+} */
+
+/* // Large devices (desktops, 992px and up)
+@media screen and (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media screen and (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media screen and (min-width: 1400px) {
+} */

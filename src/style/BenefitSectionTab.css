@@ -1,0 +1,44 @@
+.sectionTab {
+  margin-top: 0px;
+  padding: 82px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.rectangle {
+  margin-top: -50px;
+  background: url("../assets/images/bg-rectangle.png");
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 35px;
+  background-size: 100%;
+  border-radius: 3px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.text {
+  white-space: pre-line;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.col-md-6 p {
+  font-size: 14px;
+}
+
+.text h2 {
+  color: #fff;
+}
+
+.text .sub {
+  color: #367cff;
+  margin-top: -5px;
+}
+
+.text-content p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.text-content h5 {
+  color: #367cff;
+}

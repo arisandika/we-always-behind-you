@@ -1,0 +1,58 @@
+.sectionMobile {
+  padding: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.rectangle {
+  margin-top: -0px;
+  background: url("../assets/images/bg-rectangle.png");
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 35px;
+  background-size: 100%;
+  border-radius: 3px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.text {
+  white-space: pre-line;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.text-head {
+  font-size: 15px;
+}
+
+.text h2 {
+  color: #fff;
+}
+
+.text .sub {
+  color: #367cff;
+  margin-top: -5px;
+}
+
+.text-content p {
+  color: #fff;
+  font-size: 15px;
+}
+
+.text-content h5 {
+  color: #367cff;
+}
+
+.ilusSection2 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.ilusSection2 img {
+  /* transition: 0.6s; */
+}
+
+.ilusSection2 img:hover {
+  /* transform: scale(1.02); */
+}

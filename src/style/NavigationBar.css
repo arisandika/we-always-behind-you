@@ -1,0 +1,30 @@
+#navbarToggle {
+  margin-right: 4px;
+  color: transparent;
+}
+
+#navbarBrand {
+  margin-left: -8px;
+}
+
+.navCanvas {
+  margin-top: -20px;
+}
+
+.off-title {
+  margin-left: 74px;
+  font-size: 14px;
+}
+
+Offcanvas {
+  /* background: url("../assets/images/bg-rectangle.png");
+  background-size: 100%; */
+  margin-left: -80px;
+  width: 200px;
+}
+
+@media screen and (min-width: 576px) {
+  .off-canvas {
+    margin-right: -100px;
+  }
+}

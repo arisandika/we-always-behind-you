@@ -1,0 +1,70 @@
+import ThemeProvider from "react-bootstrap/ThemeProvider";
+import "../style/LandingPage.css";
+import image from "../assets/images/image1.png";
+import CustomButton from "./CustomButton";
+
+function LandingPage() {
+  return (
+    <ThemeProvider breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]} minBreakpoint="xxs">
+      {/* Desktop Breakpoints */}
+      <div className="section d-none d-lg-block d-flex align-items-center">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="captionLandingPage text-white px-5 ms-5">
+              <h6 className="fw-normal">Kami dari departemen keamanan</h6>
+              <h1>
+                Siap melayani segala <br></br> macam pertolongan <br></br> yang anda butuhkan!
+              </h1>
+            </div>
+            <div className="px-5 pt-2 ms-5 mt-3">
+              <CustomButton />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <img src={image} alt="" height="590px" className="imageLandingPage align-center w-auto" />
+          </div>
+        </div>
+      </div>
+      {/* Mobile Breakpoints */}
+      <div className="section d-lg-none d-sm-block d-md-none d-flex align-items-center">
+        <div className="row">
+          <div className="col-md-6">
+            <img src={image} alt="" height="380px" className="imageLandingPageMobile align-center w-auto" />
+          </div>
+          <div className="col-md-6 p-4">
+            <div className="captionLandingPageMobile text-white">
+              <h6 className="fw-normal">Kami dari departemen keamanan</h6>
+              <h1>
+                Siap melayani segala <br></br> macam pertolongan <br></br> yang anda butuhkan!
+              </h1>
+            </div>
+            <div className="mt-3 ms-1">
+              <CustomButton />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Tab Breakpoints */}
+      <div className="section d-none d-lg-none d-sm-none d-md-block d-flex align-items-center">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="captionLandingPageTab text-white px-5 ms-2">
+              <h6 className="fw-normal">Kami dari departemen keamanan</h6>
+              <h1>
+                Siap melayani segala <br></br> macam pertolongan <br></br> yang anda butuhkan!
+              </h1>
+            </div>
+            <div className="px-5 pt-2 ms-2 mt-3">
+              <CustomButton />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <img src={image} alt="" height="380px" className="imageLandingPageTab align-center w-auto" />
+          </div>
+        </div>
+      </div>
+    </ThemeProvider>
+  );
+}
+
+export default LandingPage;

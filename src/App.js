@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// Components import
+import NavigationBar from "./components/NavigationBar";
+import LandingPage from "./components/LandingPage";
+import BenefitSection from "./components/BenefitSection";
+import BenefitSectionMobile from "./components/BenefitSectionMobile";
+import BenefitSectionTab from "./components/BenefitSectionTab";
+// Images import
+import "./assets/images/background-color.png";
+import "./assets/images/bg-rectangle.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="background">
+      <div className="navBar">
+        <NavigationBar />
+      </div>
+      <div className="landingPage">
+        <LandingPage />
+      </div>
+      <div className="BenefitSection">
+        <BenefitSection />
+        <BenefitSectionMobile />
+        <BenefitSectionTab />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,149 @@
+<!-- import qualified from "../assets/images/qualified.png";
+import locate from "../assets/images/locate.png";
+import thumb from "../assets/images/thumb.png";
+
+import ThemeProvider from "react-bootstrap/ThemeProvider";
+import "../style/BenefitSection.css";
+
+function BenefitSection() {
+  return (
+    <ThemeProvider breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]} minBreakpoint="xxs">
+      {/* Desktop Breakpoints */}
+      <div className="section-rectangle d-none d-lg-block justify-content-center align-items-center">
+        <div className="rectangle row justify-content-center align-items-center shadow-xxl">
+          <ul className="d-flex text-white px-5 pt-4 mt-2 align-items-center text-decoration-none list-unstyled justify-content-between">
+            <li>
+              <h2>Best Benefit With</h2>
+              <h2 className="subtitle-2">Security Department</h2>
+            </li>
+            <li className="text-end">
+              <p>
+                Beberapa keuntungan yang akan kalian dapatkan, serta <br></br> jaminan yang aman dan terpercaya. Kami selalu <br></br> memberikan layanan yang terbaik.
+              </p>
+            </li>
+          </ul>
+          <div className="col-md-3 text-white px-0">
+            <img src={qualified} alt="" height="70px" className="mt-5 mb-3" />
+            <h5>Qualified Personel</h5>
+            <p>
+              Dengan personil kita yang <br></br> sudah terkualifikasi secara fisik, <br></br> mental & kejiwaan demi <br></br> menjaga kualitas.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+          <div className="col-md-3 text-white px-0">
+            <img src={locate} alt="" height="70px" className="mt-5 mb-3" />
+            <h5>Available Everywhere</h5>
+            <p>
+              Tersedia di berbagai kota kota <br></br> besar maupun di pelosok <br></br> daerah. Layanan kami ada <br></br> dimanapun anda berada.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+          <div className="col-md-3 text-white px-0">
+            <img src={thumb} alt="" height="70px" className="mt-5 mb-3" />
+            <h5>Best Services</h5>
+            <p>
+              Memberi keamanan, keselama- <br></br> tan dan perlindungan yang <br></br> terbaik dan ternyaman <br></br> untuk kalian semua.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* Mobile Breakpoints */}
+      <div className="section-rectangleMobile d-lg-none d-sm-block d-md-none justify-content-center align-items-center">
+        <div className="rectangleMobile py-3 row justify-content-center align-items-center shadow-xxl">
+          <div className="text-white text-center pt-4 mt-3 pb-5">
+            <h2>Best Benefit With</h2>
+            <h2 className="subtitle-2">Security Department</h2>
+            <p>
+              Beberapa keuntungan yang akan kalian <br></br> dapatkan, serta jaminan yang aman dan <br></br> terpercaya. Kami selalu memberikan <br></br> layanan yang terbaik.
+            </p>
+          </div>
+          <div className="col text-white text-center">
+            <img src={qualified} alt="" height="70px" className="mt-5 mb-3" />
+            <h4>Qualified Personel</h4>
+            <p>
+              Dengan personil kita yang sudah <br></br> terkualifikasi secara fisik, mental & <br></br> kejiwaan demi menjaga kualitas.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+          <div className="col text-white text-center">
+            <img src={locate} alt="" height="70px" className="mt-4 mb-3" />
+            <h4>Available Everywhere</h4>
+            <p>
+              Tersedia di berbagai kota kota besar <br></br> maupun di pelosok daerah. Layanan <br></br> kami ada dimanapun anda berada.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+          <div className="col text-white text-center">
+            <img src={thumb} alt="" height="70px" className="mt-4 mb-3" />
+            <h4>Best Services</h4>
+            <p>
+              Memberi keamanan, keselamatan dan <br></br> perlindungan yang terbaik untuk kalian <br></br> semua.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* Tab Breakpoints */}
+      <div className="section-rectangleTab d-none d-lg-none d-sm-none d-md-block justify-content-center align-items-center">
+        <div className="rectangleTab py-3 row justify-content-center align-items-center shadow-xxl">
+          <ul className="d-flex text-white px-5 pt-4 mt-2 mb-5 align-items-center text-decoration-none list-unstyled justify-content-between">
+            <li>
+              <h2>Best Benefit With</h2>
+              <h2 className="subtitle-2">Security Department</h2>
+            </li>
+            <li className="text-end">
+              <p>
+                Beberapa keuntungan yang akan kalian dapatkan, serta <br></br> jaminan yang aman dan terpercaya. Kami selalu <br></br> memberikan layanan yang terbaik.
+              </p>
+            </li>
+          </ul>
+          <div className="col text-white text-center">
+            <img src={qualified} alt="" height="70px" className="mt-5 mb-3" />
+            <h4>Qualified Personel</h4>
+            <p>
+              Dengan personil kita yang sudah <br></br> terkualifikasi secara fisik, mental & <br></br> kejiwaan demi menjaga kualitas.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+          <div className="col text-white text-center">
+            <img src={locate} alt="" height="70px" className="mt-4 mb-3" />
+            <h4>Available Everywhere</h4>
+            <p>
+              Tersedia di berbagai kota kota besar <br></br> maupun di pelosok daerah. Layanan <br></br> kami ada dimanapun anda berada.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+          <div className="col text-white text-center">
+            <img src={thumb} alt="" height="70px" className="mt-4 mb-3" />
+            <h4>Best Services</h4>
+            <p>
+              Memberi keamanan, keselamatan dan <br></br> perlindungan yang terbaik untuk kalian <br></br> semua.
+            </p>
+            <a href="#" className="text-decoration-none">
+              Baca selengkapnya...
+            </a>
+          </div>
+        </div>
+      </div>
+    </ThemeProvider>
+  );
+}
+
+export default BenefitSection; -->
