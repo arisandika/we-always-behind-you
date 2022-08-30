@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/we-always-behind-you/static/css/main.92cca404.css",
+    "main.js": "/we-always-behind-you/static/js/main.2eb4281a.js",
+    "static/js/787.3dc88ffd.chunk.js": "/we-always-behind-you/static/js/787.3dc88ffd.chunk.js",
+    "static/media/pic-agent.png": "/we-always-behind-you/static/media/pic-agent.d7c9d57c586f49bcd06a.png",
+    "static/media/background-color.png": "/we-always-behind-you/static/media/background-color.368254af6e493a5a7cb5.png",
+    "static/media/image1.png": "/we-always-behind-you/static/media/image1.17d5b2d2d56527d54c8c.png",
+    "static/media/ilustrate1.png": "/we-always-behind-you/static/media/ilustrate1.ddfa9bae5e4de0945700.png",
+    "static/media/ilustrate2.png": "/we-always-behind-you/static/media/ilustrate2.35d0d738d2c3ad0e2255.png",
+    "index.html": "/we-always-behind-you/index.html",
+    "main.92cca404.css.map": "/we-always-behind-you/static/css/main.92cca404.css.map",
+    "main.2eb4281a.js.map": "/we-always-behind-you/static/js/main.2eb4281a.js.map",
+    "787.3dc88ffd.chunk.js.map": "/we-always-behind-you/static/js/787.3dc88ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92cca404.css",
+    "static/js/main.2eb4281a.js"
+  ]
+}
